@@ -307,3 +307,33 @@ input[type="submit"]:hover {
 ```
 
 ![image test](assets\Grid2.png "Grid resizing")
+
+---
+
+## Add variables
+
+```css
+/* To create variables */
+:root {
+  --colors1: red;
+  --colors2: pink;
+
+  /* To use variable */
+  color: var(--colors1);
+}
+```
+
+---
+
+## Calcule
+
+- We can make operation in function
+
+```css
+width: calc(100% - 50px);
+```
+
+## Some link
+
+- To make a polygone : https://bennettfeely.com/clippy/
+- To make a gradient : https://cssgradient.io

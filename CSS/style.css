@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap");
 
+/* To create variables */
+:root {
+  --colors1: red;
+  --colors2: pink;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +23,9 @@ h1 {
 
   /* To change the color of the text : */
   color: blueviolet;
+
+  /* To use variable */
+  color: var(--colors1);
 
   /* To create shadow (px:xy and blur) : */
   text-shadow: 5px 3px 0px blanchedalmond;
@@ -207,4 +216,20 @@ input[type="submit"]:hover {
       "ta"
       "bt";
   }
+}
+
+.polygone {
+  clip-path: polygon(
+    57% 72%,
+    70% 0%,
+    0 45%,
+    100% 70%,
+    30% 60%,
+    30% 100%,
+    17% 51%,
+    91% 14%
+  );
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
 }
