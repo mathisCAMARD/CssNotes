@@ -174,7 +174,7 @@ main {
 }
 ```
 
-## ![image test](assets\Positioning.png "Positionning")
+## ![image test](https://github.com/mathisCAMARD/CssNotes/blob/main/CSS/assets/Positioning.png?raw=true "Positionning")
 
 ## Flexbox
 
